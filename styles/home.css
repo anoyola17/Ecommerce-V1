@@ -1,0 +1,107 @@
+/* --------- MAIN CONTENT --------- */
+#homepage-video video{
+    max-width: 100%; 
+    max-height: 100%; 
+    width: 100%; 
+    height: auto;
+}
+
+#homepage-title{
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    color: rgb(253, 214, 169);
+    padding: 1.5%;
+    text-align: center;
+    font-size: 22px;
+}
+
+#homepage-img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 340px;
+    width: 335px;
+    margin-bottom: 1.5rem;
+}
+
+#homepage-paragraph1, #homepage-paragraph2{
+    color: antiquewhite;
+    margin-top: 1.5rem;
+    margin: auto;
+    text-align: start;
+    padding: 4.5%;
+    font-size: 18px; 
+    margin-bottom: 1.5rem;   
+}
+
+/*-------------- MEDIA QUERY FOR TABLET ---------------*/
+@media all and (min-width: 768px) {
+
+    #homepage-intro{
+        margin-bottom: 1.5rem;
+
+    }
+
+    #homepage-title{
+        font-size: 32px;
+        padding: 3%;
+    }
+
+    #homepage-intro{
+        display: flex;
+        justify-content: space-between;
+   }
+
+    .homepage-photo{
+        display: flex;
+        justify-content: left;
+        margin: auto;
+    }
+
+    #homepage-img{
+        padding: auto;
+        padding-left: 2rem;
+        height: 30rem;
+        width: 25rem;
+    }
+
+    #homepage-paragraph1, #homepage-paragraph2{
+        font-size: 15px;
+    }
+
+}
+
+/*-------------- MEDIA QUERY FOR DESKTOP ---------------*/
+@media all and (min-width: 1024px) {
+
+    #homepage-intro{
+        margin-bottom: 2.5rem;
+
+    }
+    
+    #homepage-title{
+        font-size: 34px;
+        padding: 1%;
+    }
+
+    .homepage-photo{
+        display: flex;
+        justify-content: left;
+        margin: auto;
+    }
+
+    #homepage-img{
+        padding: auto;
+        padding-left: 3.5rem;
+        height: 35rem;
+        width: 30rem;
+        margin-bottom: 2rem;
+    }
+
+    #homepage-paragraph1, #homepage-paragraph2{
+        font-size: 20px;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

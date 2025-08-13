@@ -1,0 +1,142 @@
+main{
+    background: url('../images/Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Helvatica Neue", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center; 
+    padding: 40px;
+    font-size: 20px;
+    height: 100%; 
+    color:azure;
+}
+
+#contact-intro{
+  margin-bottom: 2em;
+}
+
+#section_contact-forms{
+  background-color: transparent;
+  border-radius: 40px;
+  color: black;
+  margin-bottom: 2em;
+  
+}
+
+input[type=text], select{
+  padding: 2px 10px;
+  width: 100%;
+  text-align: center;
+}
+
+
+input[type=email] , select{
+  padding: 2px 10px;
+  width: 100%;
+  text-align: center;
+}
+
+input[type=number]{
+  padding: 1px 12px;
+}
+
+textarea{
+  padding: auto;
+  width: auto;
+  max-width: 240px;
+}
+
+div {
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: medium;
+}
+
+.contact-group{
+  width: 275px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: transparent; 
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 50%;
+  background-color: DarkRed;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(192, 0, 0);
+}
+
+/*-------------- MEDIA QUERY FOR TABLET ---------------*/
+@media all and (min-width: 768px) {
+
+    #section_contact-forms{
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+  
+}
+
+.contact-group{
+  display: inline-block;
+}
+
+#subject{
+  display: block;
+  width: 225px;
+  max-height: 200px;
+}
+
+button{
+  display: block;
+  margin: auto;
+}
+
+}
+
+/*-------------- MEDIA QUERY FOR DESKTOP ---------------*/
+@media all and (min-width: 1024px) {   
+.contact-group{
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#subject{
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  max-width: 500px;
+  max-height: 200px;
+}
+
+button{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+}

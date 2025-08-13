@@ -1,0 +1,109 @@
+main{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: rgb(255, 247, 240);
+    padding: 20px;
+}
+
+main div{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(18, 98, 210, 0);
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 15px 5px Silver;
+    margin: 1.5rem;
+    border-radius: 10px;
+}
+
+main h1{
+    color: rgb(255, 247, 240);
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+main img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+main p{
+    color: rgb(255, 247, 240);
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-bottom: 1.5rem;
+}
+
+main span{
+    color: rgb(255, 247, 240);
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+/*-------------- MEDIA QUERY FOR TABLET ---------------*/
+@media all and (min-width: 768px) {
+    
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    main div{
+        width: 40%;
+        margin: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    main img{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    main h1{
+        font-size: 2rem;
+    }
+
+    main p, main span{
+        font-size: 1.5rem;
+    }
+}
+
+/*-------------- MEDIA QUERY FOR DESKTOP ---------------*/
+@media all and (min-width: 1024px) {
+      
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    main div{
+        width: 20%;
+        margin: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    main img{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    main h1{
+        font-size: 2rem;
+    }
+
+    main p, main span{
+        font-size: 1.5rem;
+    }
+
+}

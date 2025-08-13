@@ -1,0 +1,86 @@
+[
+    {
+        "image": "../images/Shoyu Ramen.jpg",
+        "name": "Shoyu Ramen",
+        "price": 10.99,
+        "description": "A soy sauce-based ramen with a savory, umami-rich broth, often paired with curly noodles and toppings like chashu pork and bamboo shoots"
+    },
+    
+    
+    { 
+        "image": "../images/Miso Ramen.jpg",
+        "name": "Miso Ramen",
+        "price": 11.99,
+        "description": "A fermented miso paste broth with a slightly sweet, earthy taste, commonly served with corn, bean sprouts, and butter"
+    },
+    
+    {
+        "image": "../images/Shio Ramen.jpg",
+        "name": "Shio Ramen",
+        "price": 10.99,
+        "description": "A light, salt-seasoned broth that highlights delicate flavors, often enjoyed with seafood or chicken and thin, straight noodles"
+    },
+
+     {
+        "image": "../images/Tonkotsu Ramen.jpeg",
+        "name": "Tonkotsu Ramen",
+        "price": 11.99,
+        "description": "A rich, creamy pork bone broth with a thick, collagen-heavy texture, typically served with thin noodles, tender chashu, and garlic oil"
+    },
+
+     {
+        "image": "../images/Spicy Shoyu Ramen.jpg",
+        "name": "Spicy Shoyu Ramen",
+        "price": 15.99,
+        "description": "A fiery twist on classic shoyu ramen, blending soy sauce broth with chili paste or oil for a bold, spicy kick"
+    },
+
+     {
+        "image": "../images/Spicy Miso Ramen.jpg",
+        "name": "Spicy Miso Ramen",
+        "price": 15.99,
+        "description": "Miso broth intensified with spicy seasonings like chili oil or ground pork, offering a deep, warming heat"
+    },
+
+    {
+        "image": "../images/Tantanmen Ramen.webp",
+        "name": "Tantanmen Ramen",
+        "price": 14.99,
+        "description": "Sichuan dan dan noodles, featuring a spicy, nutty sesame-peanut broth with ground pork and chili oil"
+    },
+
+   {
+        "image": "../images/Spicy Sesame Ramen.jpg",
+        "name": "Spicy Sesame Ramen",
+        "price": 13.99,
+        "description": "A nutty, aromatic broth infused with toasted sesame and chili, delivering a rich and slightly smoky heat"
+    },
+
+     {
+        "image": "../images/Spicy Chicken Ramen.jpg",
+        "name": "Spicy Chicken Ramen",
+        "price": 16.99,
+        "description": "A lighter but still fiery option with a chicken-based broth, often topped with shredded chicken and fresh greens"
+    },
+
+    {
+        "image": "../images/Spicy Pork Ramen.jpg",
+        "name": "Spicy Pork Ramen",
+        "price": 16.99,
+        "description": "A robust, meaty ramen with a pork-based broth enhanced with chili spices, often featuring minced or sliced pork"
+    },
+
+    {
+        "image": "../images/Mochi.jpg",
+        "name": "Mochi Ice Cream",
+        "price": 5.99,
+        "description": "Sweet, chewy mochi (glutinous rice dough) wrapped around creamy ice cream in flavors like matcha, strawberry, or vanilla"
+    },
+    
+     {
+        "image": "../images/Coffee-jelly.jpg",
+        "name": "Coffee Jelly",
+        "price": 6.99,
+        "description": "Made of coffee-flavored gelatin, often served with whipped cream or condensed milk for a bittersweet treat"
+    }
+]
